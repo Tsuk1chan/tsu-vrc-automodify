@@ -1,0 +1,12 @@
+# 统一换行符，避免 Windows 克隆后 CRLF 污染 diff
+* text=auto eol=lf
+
+*.cs   text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.json text eol=lf
+
+*.png  binary
+*.jpg  binary
+*.gif  binary
+*.unitypackage binary
